@@ -1,0 +1,21 @@
+.menu-handler > button:focus {
+    box-shadow: none;
+}
+.light-blue {
+    background-color: #e3f2fd;
+}
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#000000ad;
+    z-index: 5;
+}
+.carousel-caption {
+    color: #e3f2fd;
+    position: absolute;
+    z-index: 9;
+}
